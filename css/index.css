@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body{
+	background-color: #eae8e8;
+	border-top: 5px solid #7e7e7e;
+	font-family: 'Titillium Web', sans-serif;
+	color: #757a82;
+}
+
+#logo{
+	margin-top: 20px;
+	margin-bottom: -10px;
+}
+
+.navbar{
+	margin-top: 20px;
+}
+
+.navbar-default{
+	background-color: #eae8e8;
+}
+
+.n{
+	font-size: 17px;
+	text-align: center;
+	width: 119px;
+}
+
+.heading{
+	font-size: 40px;
+	margin-top: 0px;
+	background: repeating-linear-gradient(
+  	135deg,
+  	#eae8e8,
+  	#eae8e8 2px,
+  	#a8b1bf 4px,
+  	#a8b1bf 4px
+	);
+	height: 50px;
+}
+
+.active{
+	background-color: #88d5fc;
+	color: white;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	background-color: #88d5fc;
+	color: white;
+}
+
+#h{
+	background: #eae8e8;
+	margin-left: 10px;
+	font-weight: bolder;
+}
+
+.navborder{
+	border: 1px solid silver;
+    background: #e0e0e0;
+}
+
+.s, .sidebar-our-offices{
+	border: 1px solid silver;
+	background: #e0e0e0;	
+}
+
+.sidebar, .sidebar-our-offices{
+	margin-top: 24px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.content-part{
+	margin-top: 24px;	
+}
+
+
+.list-group-item a{
+	color: #757a82;
+}
+
+.list-group-item a:hover{
+	color: #88d5fc;
+}
+
+.sidebar-our-offices-label{
+	padding-left: 15px;
+    padding-top: 7px;
+    background-color: #88d5fc;
+	color: white;
+}
+
+.sidebar-our-team-label{
+	padding-left: 15px;
+    padding-top: 7px;
+    background-color: #88d5fc;
+	color: white;	
+}
+
+.ofl{
+	height: 27px;
+}
+
+.otl{
+	height: 50px;
+}
+
+#building{
+	margin-left: 52px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-our-offices, .content-article-img{
+	margin-bottom: 20px;
+}
+
+.jumbotron{
+	background-color: #88d5fc;
+}
+
+.j{
+	color: white;
+}
+
+.j-author{
+    margin-top: -10px;
+}
+
+.t{
+	font-size: 32px; 
+}
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+ 
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+.team-img{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.team-desc{
+	margin-top: -10px;
+    color: #88d5fc;
+}
+
+footer{
+	background-color: #707275;
+	height: 100%;
+}
+
+.footer{
+	color: #eae8e8;
+}
+
+.footer-feed-header-text{
+	margin-bottom: -18px;
+}
+
+.footer-feed-header{
+	margin-bottom: -6px;
+}
+
+.twitter-feed-date{
+	color: #b7b5b5;
+}
+
+.twitter-feed-date, .twitter-feed-text{
+	font-size: 12px;
+}
+
+.snimg{
+	padding-bottom: 15px;
+}
+
+.footer-logo{
+	margin-top: 30px;
+}
